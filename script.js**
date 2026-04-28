@@ -1,0 +1,40 @@
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const nav = document.querySelector("nav");
+    const navLinks = document.querySelectorAll("nav a");
+    const hero = document.querySelector("#hero");
+    const features = document.querySelector("#features");
+    const testimonials = document.querySelector("#testimonials");
+    const footer = document.querySelector("#footer");
+
+    nav.addEventListener("click", function (e) {
+        if (e.target.tagName === "A") {
+            e.preventDefault();
+            const section = e.target.getAttribute("href");
+            document.querySelector(section).scrollIntoView({ behavior: "smooth" });
+        }
+    });
+
+    hero.addEventListener("click", function () {
+        hero.scrollIntoView({ behavior: "smooth" });
+    });
+
+    features.addEventListener("click", function () {
+        features.scrollIntoView({ behavior: "smooth" });
+    });
+
+    testimonials.addEventListener("click", function () {
+        testimonials.scrollIntoView({ behavior: "smooth" });
+    });
+
+    footer.addEventListener("click", function () {
+        footer.scrollIntoView({ behavior: "smooth" });
+    });
+
+    const buttons = document.querySelectorAll("button");
+    buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            button.classList.toggle("active");
+        });
+    });
+});
