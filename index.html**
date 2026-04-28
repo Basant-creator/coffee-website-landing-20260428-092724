@@ -1,0 +1,71 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew and Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to Brew and Haven</h1>
+            <p>Experience the perfect blend of coffee and community</p>
+            <button>Get Started</button>
+            <button>Learn More</button>
+        </section>
+        <section id="features">
+            <h2>Our Features</h2>
+            <ul>
+                <li>
+                    <i class="fa fa-coffee"></i>
+                    <h3>Expertly Roasted Coffee</h3>
+                    <p>Our coffee is roasted to perfection to bring out the unique flavors of each bean</p>
+                </li>
+                <li>
+                    <i class="fa fa-people-group"></i>
+                    <h3>Community-Focused</h3>
+                    <p>We're more than just a coffee shop - we're a community hub where you can connect with others</p>
+                </li>
+                <li>
+                    <i class="fa fa-location-dot"></i>
+                    <h3>Convenient Location</h3>
+                    <p>Located in the heart of the city, we're easy to get to and convenient to visit</p>
+                </li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <h2>What Our Customers Say</h2>
+            <ul>
+                <li>
+                    <p>"Brew and Haven is my go-to coffee shop - the staff is friendly and the coffee is always top-notch!"</p>
+                    <p>- Emily R.</p>
+                </li>
+                <li>
+                    <p>"I love the atmosphere at Brew and Haven - it's the perfect place to meet with friends or get some work done."</p>
+                    <p>- David K.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="footer">
+            <h2>Get in Touch</h2>
+            <p>Address: 123 Main St, Anytown USA</p>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: [info@brewandhaven.com](mailto:info@brewandhaven.com)</p>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
